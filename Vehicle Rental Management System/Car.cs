@@ -24,5 +24,6 @@ public class Car : Vehicle
     {
         base.DisplayDetails();
         Console.WriteLine($"Seats: {Seats}, Engine Type: {EngineType}, Transmission: {Transmission}, Convertible: {Convertible}");
+         Console.WriteLine("\n");
     }
 }
