@@ -22,5 +22,6 @@ public class Truck : Vehicle
     {
         base.DisplayDetails();
         Console.WriteLine($"Capacity: {Capacity}, Truck Type: {TruckType}, Four Wheel Drive: {FourWheelDrive}");
+         Console.WriteLine("\n");
     }
 }
