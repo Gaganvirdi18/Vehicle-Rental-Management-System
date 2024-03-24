@@ -32,10 +32,12 @@ public class RentalAgency
             TotalRevenue += Fleet[index].RentalPrice;
             Fleet[index] = null;
             Console.WriteLine("Vehicle rented successfully.");
+             
         }
         else
         {
             Console.WriteLine("No vehicle available at this index.");
         }
+         Console.WriteLine("\n");
     }
 }
