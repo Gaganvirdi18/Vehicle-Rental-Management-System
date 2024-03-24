@@ -22,5 +22,6 @@ public class Motorcycle : Vehicle
     {
         base.DisplayDetails();
         Console.WriteLine($"Engine Capacity: {EngineCapacity}, Fuel Type: {FuelType}, Has Fairing: {HasFairing}");
+         Console.WriteLine("\n");
     }
 }
